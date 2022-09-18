@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: <ACCESS_KEY>
+      secret-key: <SECRET_KEY>
+    end-point:
+      uri: <SQS_ARN>
+
+server:
+  port: 8090
